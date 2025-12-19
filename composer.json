@@ -1,0 +1,18 @@
+{
+    "name": "weltpixel/magento2-weltpixel-mutiple-wishlist-lite",
+    "description": "WeltPixel AdvancedWishlist Module",
+    "require": {
+        "magento/module-wishlist": "*"
+    },
+    "type": "magento2-module",
+    "version": "1.15.9",
+    "license": "MIT",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "WeltPixel\\AdvancedWishlist\\": ""
+        }
+    }
+}
